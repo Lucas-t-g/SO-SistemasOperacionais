@@ -1,0 +1,3 @@
+Faça um programa que, dado um diretório com arquivos de texto no formato .txt, calcule as seguintes estatísticas para cada arquivo.
+Número de palavras, número de vogais, número de consoantes, palavra que apareceu mais vezes no arquivo, vogal mais frequente, consoantes mais frequente.
+Além disso, para cada arquivo do diretório, o programa deverá gerar um novo arquivo, contendo o conteúdo do arquivo original escrito em letras maiúsculas.

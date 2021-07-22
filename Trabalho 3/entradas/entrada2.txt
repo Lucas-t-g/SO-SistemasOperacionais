@@ -1,0 +1,5 @@
+prioridade|5
+files|4|7|1|99|1
+chrome|1|12|5|99|1
+spotify|2|13|4|99|1
+vscode|3|4|5|99|1

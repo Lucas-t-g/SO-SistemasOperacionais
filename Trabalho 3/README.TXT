@@ -1,0 +1,32 @@
+>>Escalonador de processos
+    >> by: Lucas Tarsitano Garcia
+    >> matricula: 127367
+
+-> Dependencias:
+    acredito que todas as bibliotecas utilizadas ja sejam nativas do python3 (usei especificamente a versão 3.8.5, 
+    não funciona com python2)
+    lista de bibliotecas utilizadas:
+        -threading
+        -unicodedata
+        -os
+        -glob
+        -sys
+        -time
+        -random
+        -argparse (exclusiva do python 3.2 pra frente pelo que vi)
+        -threading
+
+
+-> arquivo - linha de comando para executar: 'python3 127367.py, -a [caminho/diretorio/arquivo]'
+		- 'python3 127367.py, -a [caminho/diretorio/arquivo]
+
+-> delay - caso queira mudar a velocidade da simulação utilize a configuração -d e o tempo, em segundos, 
+    entre cada atualização de qual processo estpa na cpu (suporta float), valor default é zero, exemplo: 
+    	- 'python3 127367.py, -a [caminho/diretorio/arquivo] -d 1'
+    	- 'python3 127367.py -a [caminho/diretorio/arquivo] -d 0.5'
+
+-> detalhes - caso queira ver alguns detalhes extras como a lista de todos os processos no início e no final (ao digitar 'exit' e 
+	 pressionar enter) e a troca de acesso a lista de processos quando feita uma entrada de um novo processo entre a thread que processa 
+	 e a thread que insere novos processos, configuração -s, o default é 'False', argumetnos aceitos: 'True' ou 'T', exemplo:
+	 	- 'python3 127367.py, -a [caminho/diretorio/arquivo] -s True'
+	 	- 'python3 127367.py, -a [caminho/diretorio/arquivo] -s T'
